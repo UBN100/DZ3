@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             instanceState = "Первый запуск!" ;
         }
         else {
-            instanceState = "Повторный  запуск!" ;
+            instanceState = "Повторный  запуск!!" ;
         }
         Toast. makeText (getApplicationContext(), instanceState + " - onCreate()" ,
                 Toast. LENGTH_SHORT ).show();
